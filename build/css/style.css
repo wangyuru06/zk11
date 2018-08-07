@@ -1,0 +1,240 @@
+a:hover,
+a:active,
+a:link,
+a:visited {
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  line-height: 1.5; }
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+th {
+  text-align: inherit; }
+
+fieldset,
+img {
+  border: 0; }
+
+iframe {
+  display: block; }
+
+abbr,
+acronym {
+  border: 0;
+  font-variant: normal; }
+
+del {
+  text-decoration: line-through; }
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+th,
+var {
+  font-style: normal;
+  font-weight: 500; }
+
+ol,
+ul {
+  list-style: none; }
+
+caption,
+th {
+  text-align: left; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: 500; }
+
+i,
+code,
+b {
+  font-weight: normal;
+  font-style: normal; }
+
+code {
+  background: transparent; }
+
+.box {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.header {
+  width: 100%;
+  height: 1.06667rem;
+  line-height: 1.06667rem;
+  text-align: center;
+  font-size: 0.53333rem; }
+
+.main {
+  width: 100%;
+  height: auto;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  overflow-y: auto; }
+  .main .banner {
+    width: 100%;
+    height: 4.26667rem;
+    overflow: hidden; }
+    .main .banner ul {
+      width: 100%;
+      height: 4.26667rem;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .main .banner ul li {
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+        width: 6.4rem;
+        height: 4.26667rem;
+        margin-right: 10px;
+        -webkit-box-shadow: 0, 0, 0, 2px rgba(0, 0, 0, 0.5);
+                box-shadow: 0, 0, 0, 2px rgba(0, 0, 0, 0.5); }
+        .main .banner ul li img {
+          width: 100%;
+          height: 100%; }
+  .main > h2 {
+    width: 100%;
+    height: 1.06667rem;
+    line-height: 1.06667rem;
+    text-align: center;
+    font-size: 0.53333rem; }
+  .main .list {
+    width: 100%;
+    height: auto; }
+    .main .list dl {
+      width: 100%;
+      height: 4.26667rem;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      padding: 0.05333rem; }
+      .main .list dl dt {
+        -webkit-box-flex: 1;
+            -ms-flex: 1;
+                flex: 1; }
+      .main .list dl dd {
+        width: 4rem;
+        height: 4rem;
+        background: #eee; }
+        .main .list dl dd img {
+          width: 100%;
+          height: 100%; }
